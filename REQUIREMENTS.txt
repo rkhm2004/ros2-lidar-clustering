@@ -1,0 +1,85 @@
+REQUIREMENTS – ROS2 LiDAR Object Clustering Project
+
+This project requires a system running Ubuntu 22.04 LTS.
+The project has been developed and tested only on Ubuntu 22.04.
+
+ROS Distribution required:
+ROS2 Jazzy Jalisco
+
+ROS2 Jazzy must be installed using the official documentation:
+https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html
+
+After installing ROS2, verify using:
+ros2 --version
+
+
+Required ROS2 packages:
+
+sudo apt update
+sudo apt install -y \
+  ros-jazzy-rviz2 \
+  ros-jazzy-rosbag2 \
+  ros-jazzy-rosbag2-storage-mcap \
+  ros-jazzy-tf2-tools
+
+
+Build and development tools required:
+
+sudo apt install -y \
+  build-essential \
+  python3-pip \
+  python3-colcon-common-extensions \
+  python3-rosdep
+
+
+Initialize rosdep (run once):
+
+sudo rosdep init
+rosdep update
+
+
+Python dependencies required for LiDAR clustering:
+
+pip3 install numpy scikit-learn
+
+Verify Python dependencies:
+
+python3 -c "import numpy, sklearn; print('Python dependencies OK')"
+
+
+RViz OGRE dependency fix (ONLY if RViz throws error
+'libOgreMain.so.1.12.10 not found'):
+
+sudo apt install libogre-1.12-dev
+ls /usr/lib/x86_64-linux-gnu/libOgreMain.so*
+sudo ln -s /usr/lib/x86_64-linux-gnu/libOgreMain.so.1.12.12 \
+            /usr/lib/x86_64-linux-gnu/libOgreMain.so.1.12.10
+
+
+Dataset requirement:
+
+The dataset is NOT included in this repository.
+You must manually download the LiDAR dataset.
+
+Dataset file name:
+lexus3-2024-04-05-gyor.mcap
+
+Place the dataset inside:
+~/Downloads/
+
+
+Verify dataset availability:
+
+ros2 bag info ~/Downloads/lexus3-2024-04-05-gyor.mcap
+
+
+Final system verification commands:
+
+ros2 --version
+rviz2
+ros2 bag --help
+python3 -c "import numpy, sklearn"
+
+If all the above commands run without errors, the system is correctly
+configured and ready to run the ROS2 LiDAR Object Clustering project.
+
