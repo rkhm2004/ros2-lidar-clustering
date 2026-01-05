@@ -108,3 +108,9 @@ ros2 topic echo /tf --once
 cd ~/ros2_ws
 source install/setup.bash
 ros2 run lidar_clustering_py pc_cluster
+
+# ==============================
+# PHASE 4: Open the Rviz
+# ==============================
+source /opt/ros/jazzy/setup.bash
+rviz2
