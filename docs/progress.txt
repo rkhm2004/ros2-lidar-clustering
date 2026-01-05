@@ -1,26 +1,67 @@
 ROS2 LiDAR Object Clustering — Progress Log
 
 Completed Steps:
-1. ROS2 Jazzy workspace created (ros2_ws)
-2. Python package created: lidar_clustering_py
-3. Dependencies added:
-   - rclpy
-   - sensor_msgs
-   - geometry_msgs
-   - visualization_msgs
-4. Workspace built successfully using colcon
-5. Lexus LiDAR dataset (.mcap) verified using ros2 bag info
-6. Bag file played with --clock and looping enabled
-7. LiDAR topic verified:
-   /lexus3/os_center/points (PointCloud2)
-8. TF frames verified and fixed frame identified:
-   lexus3/os_center_a_laser_data_frame
-9. RViz2 fixed (OGRE issue resolved)
-10. PointCloud2 successfully visualized in RViz2
-11. QoS mismatch resolved (Best Effort)
-12. Intensity-based coloring enabled
+
+ROS2 Jazzy workspace created (ros2_ws)
+
+Python package created: lidar_clustering_py
+
+Dependencies added and configured:
+
+rclpy
+
+sensor_msgs
+
+geometry_msgs
+
+visualization_msgs
+
+Workspace built successfully using colcon
+
+Lexus LiDAR dataset (.mcap) verified using ros2 bag info
+
+Bag file played using simulated clock and loop mode (--clock -l)
+
+LiDAR topic verified:
+/lexus3/os_center/points (sensor_msgs/PointCloud2)
+
+TF frames verified and correct fixed frame identified:
+lexus3/os_center_a_laser_data_frame
+
+RViz2 issues resolved (OGRE library mismatch fixed)
+
+Raw LiDAR PointCloud2 successfully visualized in RViz2
+
+QoS mismatch resolved (Best Effort policy)
+
+DBSCAN-based LiDAR clustering node implemented
+
+Cluster centroids computed from point cloud data
+
+Cluster centroids published as MarkerArray on /pc_clusters
+
+Cluster visualization successfully displayed in RViz2
+
+Screenshots of LiDAR clustering results added to GitHub repository
 
 Current Status:
-- Raw LiDAR point cloud visible and updating correctly in RViz2
-- Clustering node running
-- Cluster visualization pending (next phase)
+
+Real-time LiDAR point cloud visible and updating correctly in RViz2
+
+DBSCAN clustering node running successfully
+
+Cluster centroids visualized as 3D markers
+
+Core project objectives achieved
+
+Next Planned Enhancements:
+
+Assign unique colors to each detected cluster
+
+Add 3D bounding boxes around clusters
+
+Tune DBSCAN parameters for different environments
+
+
+
+Prepare final project report or presentation
