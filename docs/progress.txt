@@ -1,4 +1,26 @@
-ROS2 LiDAR Object Clustering — Progress Log
+ROS2 LiDAR Object Clustering and Visualization — Progress Log
+
+Project Goal:
+To detect objects from LiDAR point cloud data by grouping nearby points into clusters and visualizing detected objects in RViz using ROS2.
+
+Dataset Used:
+lexus3-2024-04-05-gyor.mcap
+Sensor: Ouster OS LiDAR
+ROS2 Version: Jazzy
+
+Current Functionality:
+
+Raw LiDAR point cloud is received from ROS2 bag playback
+
+PointCloud2 messages are processed in a Python ROS2 node
+
+DBSCAN algorithm is used to group nearby points into clusters
+
+Centroid of each cluster is calculated
+
+Cluster centroids are published as MarkerArray messages
+
+RViz displays both raw LiDAR points and detected cluster centers
 
 Completed Steps:
 
@@ -6,62 +28,57 @@ ROS2 Jazzy workspace created (ros2_ws)
 
 Python package created: lidar_clustering_py
 
-Dependencies added and configured:
-
+Dependencies added:
 rclpy
-
 sensor_msgs
-
 geometry_msgs
-
 visualization_msgs
 
 Workspace built successfully using colcon
 
-Lexus LiDAR dataset (.mcap) verified using ros2 bag info
+Lexus LiDAR dataset verified using ros2 bag info
 
-Bag file played using simulated clock and loop mode (--clock -l)
+Bag file played using simulated clock and looping
 
-LiDAR topic verified:
-/lexus3/os_center/points (sensor_msgs/PointCloud2)
+LiDAR topic verified: /lexus3/os_center/points
 
-TF frames verified and correct fixed frame identified:
+TF frames verified and fixed frame identified:
 lexus3/os_center_a_laser_data_frame
 
-RViz2 issues resolved (OGRE library mismatch fixed)
+RViz2 OGRE library issue resolved
 
-Raw LiDAR PointCloud2 successfully visualized in RViz2
+Raw LiDAR point cloud visualized in RViz2
 
-QoS mismatch resolved (Best Effort policy)
+QoS mismatch resolved using Best Effort policy
 
-DBSCAN-based LiDAR clustering node implemented
+DBSCAN clustering node implemented
 
-Cluster centroids computed from point cloud data
+Cluster centroids published on /pc_clusters
 
-Cluster centroids published as MarkerArray on /pc_clusters
+Cluster visualization confirmed in RViz2
 
-Cluster visualization successfully displayed in RViz2
-
-Screenshots of LiDAR clustering results added to GitHub repository
+Screenshots added to GitHub repository
 
 Current Status:
 
-Real-time LiDAR point cloud visible and updating correctly in RViz2
+LiDAR data streaming correctly
 
-DBSCAN clustering node running successfully
+Clustering node running without errors
 
-Cluster centroids visualized as 3D markers
+Cluster centers visible in RViz
 
-Core project objectives achieved
+Core project goals achieved
 
-Next Planned Enhancements:
+Next Planned Improvements:
 
-Assign unique colors to each detected cluster
+Add bounding boxes around detected clusters
 
-Add 3D bounding boxes around clusters
+Assign unique colors to different clusters
 
-Tune DBSCAN parameters for different environments
+Move from bag playback to Gazebo LiDAR simulation
 
+Add robot model with LiDAR sensor in simulation
 
+Convert clustering node to C++ for better performance
 
-Prepare final project report or presentation
+Implement object tracking across frames
