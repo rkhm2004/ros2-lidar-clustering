@@ -1,0 +1,87 @@
+Terminal 1: Start the World
+
+This launches the simulation.
+Bash
+
+gz sim -r visualize_lidar.sdf
+
+Terminal 2: Bridge the LiDAR Data
+
+This connects the Gazebo LiDAR to ROS2.
+Bash
+
+ros2 run ros_gz_bridge parameter_bridge /lidar/points@sensor_msgs/msg/PointCloud2[gz.msgs.PointCloudPacked
+
+Terminal 3: Fix the Location (TF)
+
+This tells RViz where the sensor is located on the map.
+Bash
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map model_with_lidar/link/gpu_lidar
+
+Terminal 4: Run Your Clustering Code
+
+This runs the Python script that finds the objects (Green Boxes).
+Bash
+
+source ~/lidar_ws/install/setup.bash
+ros2 run lidar_clustering_py cluster_node
+
+Terminal 5: Open RViz
+
+This opens the visualization screen.
+Bash
+
+ros2 run rviz2 rviz2
+
+Terminal 6: Bridge the Controls
+
+This connects ROS2 movement commands to Gazebo.
+Bash
+
+ros2 run ros_gz_bridge parameter_bridge /model/vehicle_blue/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist
+
+Terminal 7: Keyboard Controller
+
+This lets you drive using your keyboard.
+Bash
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=/model/vehicle_blue/cmd_vel
+
+FINAL STEP: Configure RViz (Important!)
+
+RViz will be blank until you do this:
+
+    Global Options (Top Left):
+
+        Change Fixed Frame to: map
+
+        (Status should turn Green).
+
+    Add the LiDAR Points:
+
+        Click Add (Bottom Left).
+
+        Select By Topic → /lidar/points → PointCloud2.
+
+        Reliability Policy: Change to Best Effort.
+
+        Color Transformer: Change to AxisColor (This makes them visible).
+
+        Style: Change to Points.
+
+    Add the Clusters (Green Boxes):
+
+        Click Add.
+
+        Select By Topic → /pc_clusters → MarkerArray.
+
+How to Drive
+
+    Click inside Terminal 7.
+
+    Press i to move forward.
+
+    Press j or l to turn.
+
+    Watch RViz: You will see the robot scanning and green boxes appearing around objects!
