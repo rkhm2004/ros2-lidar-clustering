@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-07ec5a97cb24ed3e1d66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_lifecycle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_sensor-8b96990a0fd8290f7039.json",
+					"name" : "lifecycle_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_lifecycle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_lifecycle_uninstall-5707cde6ba43da70dbb2.json",
+					"name" : "ros2_lifecycle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-85b46a9f0aefe2058812.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle",
+		"source" : "/home/harish-k/ROS2 Assignment/Assignment 9/assignment-ros2-lifecycle-nodes-rkhm2004"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

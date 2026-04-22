@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_custom_msgs/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "COMPLETED: Define the RobotStatus message" "\n"
+      "Fields required:" "\n"
+      "- robot_name (string)" "\n"
+      "- battery_level (float64)" "\n"
+      "- is_active (bool)" "\n"
+      "- mission_count (int32)")
+    struct RobotStatus {
+      string robot_name;
+
+      double battery_level;
+
+      boolean is_active;
+
+      int32 mission_count;
+    };
+  };
+};

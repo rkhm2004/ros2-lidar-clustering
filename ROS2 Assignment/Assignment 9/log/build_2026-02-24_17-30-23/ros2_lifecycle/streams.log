@@ -1,0 +1,67 @@
+[0.017s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 9/assignment-ros2-lifecycle-nodes-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.254s] -- The CXX compiler identification is GNU 13.3.0
+[0.282s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.607s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.622s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.845s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.117s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.194s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.220s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.418s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.425s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.595s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.753s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.807s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.834s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.989s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.993s] -- Configured cppcheck include dirs: 
+[1.993s] -- Configured cppcheck exclude dirs and/or files: 
+[1.996s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.996s] -- Configured cpplint exclude dirs and/or files: 
+[1.998s] -- Added test 'lint_cmake' to check CMake code style
+[2.002s] -- Added test 'uncrustify' to check C / C++ code style
+[2.002s] -- Configured uncrustify additional arguments: 
+[2.004s] -- Added test 'xmllint' to check XML markup files
+[2.006s] -- Configuring done (2.0s)
+[2.018s] -- Generating done (0.0s)
+[2.022s] -- Build files have been written to: /home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle
+[2.035s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 9/assignment-ros2-lifecycle-nodes-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle
+[2.036s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle -- -j12 -l12
+[2.109s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_sensor.dir/src/lifecycle_sensor.cpp.o[0m
+[7.256s] [100%] [32m[1mLinking CXX executable lifecycle_sensor[0m
+[7.527s] [100%] Built target lifecycle_sensor
+[7.545s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle -- -j12 -l12
+[7.557s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle
+[7.567s] -- Install configuration: ""
+[7.567s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/lib/ros2_lifecycle/lifecycle_sensor
+[7.568s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/lib/ros2_lifecycle/lifecycle_sensor" to ""
+[7.568s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ament_index/resource_index/package_run_dependencies/ros2_lifecycle
+[7.569s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ament_index/resource_index/parent_prefix_path/ros2_lifecycle
+[7.569s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/environment/ament_prefix_path.sh
+[7.569s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/environment/ament_prefix_path.dsv
+[7.569s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/environment/path.sh
+[7.569s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/environment/path.dsv
+[7.570s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/local_setup.bash
+[7.570s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/local_setup.sh
+[7.570s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/local_setup.zsh
+[7.570s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/local_setup.dsv
+[7.570s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/package.dsv
+[7.571s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ament_index/resource_index/packages/ros2_lifecycle
+[7.571s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/cmake/ros2_lifecycleConfig.cmake
+[7.571s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/cmake/ros2_lifecycleConfig-version.cmake
+[7.571s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 9/install/ros2_lifecycle/share/ros2_lifecycle/package.xml
+[7.572s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 9/build/ros2_lifecycle

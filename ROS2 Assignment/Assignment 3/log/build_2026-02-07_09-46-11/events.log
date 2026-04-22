@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (ros2_subscriber) JobQueued: {'identifier': 'ros2_subscriber', 'dependencies': OrderedDict()}
+[0.000977] (ros2_subscriber) JobStarted: {'identifier': 'ros2_subscriber'}
+[0.013629] (ros2_subscriber) JobProgress: {'identifier': 'ros2_subscriber', 'progress': 'cmake'}
+[0.014077] (ros2_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/harish-k/ROS2 Assignment/Assgnment 2/assignment-ros2-c-subscriber-node-rkhm2004', '-DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber'], 'cwd': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'harish-k', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/harish-k', 'OLDPWD': '/home/harish-k', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1511', 'SYSTEMD_EXEC_PID': '1887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4426', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'harish-k', 'JOURNAL_STREAM': '9:21897', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harish-k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harish-k-Nitro-ANV15-52:@/tmp/.ICE-unix/1679,unix/harish-k-Nitro-ANV15-52:/tmp/.ICE-unix/1679', 'INVOCATION_ID': 'ad6bd1ad2c8047938fbf306f58907ee4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3V5EK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f9ddc6fb-1519-49c1-80d8-528026e58044', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099900] (-) TimerEvent: {}
+[0.178978] (ros2_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199988] (-) TimerEvent: {}
+[0.294930] (ros2_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.300103] (-) TimerEvent: {}
+[0.327218] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400291] (-) TimerEvent: {}
+[0.461284] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.473892] (ros2_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.476128] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.476997] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.493419] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500388] (-) TimerEvent: {}
+[0.600683] (-) TimerEvent: {}
+[0.641645] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.654808] (ros2_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.655260] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.656012] (ros2_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.671618] (ros2_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700871] (-) TimerEvent: {}
+[0.801238] (-) TimerEvent: {}
+[0.896872] (ros2_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901324] (-) TimerEvent: {}
+[1.001674] (-) TimerEvent: {}
+[1.080509] (ros2_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.101940] (-) TimerEvent: {}
+[1.157466] (ros2_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.180646] (ros2_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.202155] (-) TimerEvent: {}
+[1.208317] (ros2_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.239910] (ros2_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302439] (-) TimerEvent: {}
+[1.365797] (ros2_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.371654] (ros2_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402616] (-) TimerEvent: {}
+[1.502994] (-) TimerEvent: {}
+[1.530054] (ros2_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.566356] (ros2_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.603053] (ros2_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.603495] (-) TimerEvent: {}
+[1.703881] (-) TimerEvent: {}
+[1.736403] (ros2_subscriber) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.765920] (ros2_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.804092] (-) TimerEvent: {}
+[1.904388] (-) TimerEvent: {}
+[1.935056] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.938564] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.938758] (ros2_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.938841] (ros2_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.941935] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.942206] (ros2_subscriber) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.944188] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.947807] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.948107] (ros2_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.949198] (ros2_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.951881] (ros2_subscriber) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.962309] (ros2_subscriber) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.966540] (ros2_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber\n'}
+[1.977428] (ros2_subscriber) CommandEnded: {'returncode': 0}
+[1.978046] (ros2_subscriber) JobProgress: {'identifier': 'ros2_subscriber', 'progress': 'build'}
+[1.978851] (ros2_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', '--', '-j12', '-l12'], 'cwd': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'harish-k', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/harish-k', 'OLDPWD': '/home/harish-k', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1511', 'SYSTEMD_EXEC_PID': '1887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4426', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'harish-k', 'JOURNAL_STREAM': '9:21897', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harish-k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harish-k-Nitro-ANV15-52:@/tmp/.ICE-unix/1679,unix/harish-k-Nitro-ANV15-52:/tmp/.ICE-unix/1679', 'INVOCATION_ID': 'ad6bd1ad2c8047938fbf306f58907ee4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3V5EK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f9ddc6fb-1519-49c1-80d8-528026e58044', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.004599] (-) TimerEvent: {}
+[2.058457] (ros2_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[2.104723] (-) TimerEvent: {}
+[2.205074] (-) TimerEvent: {}
+[2.305405] (-) TimerEvent: {}
+[2.405727] (-) TimerEvent: {}
+[2.506125] (-) TimerEvent: {}
+[2.606554] (-) TimerEvent: {}
+[2.706852] (-) TimerEvent: {}
+[2.807271] (-) TimerEvent: {}
+[2.907657] (-) TimerEvent: {}
+[3.008062] (-) TimerEvent: {}
+[3.108572] (-) TimerEvent: {}
+[3.208960] (-) TimerEvent: {}
+[3.309405] (-) TimerEvent: {}
+[3.409798] (-) TimerEvent: {}
+[3.510193] (-) TimerEvent: {}
+[3.610579] (-) TimerEvent: {}
+[3.710979] (-) TimerEvent: {}
+[3.811461] (-) TimerEvent: {}
+[3.911866] (-) TimerEvent: {}
+[4.012284] (-) TimerEvent: {}
+[4.112673] (-) TimerEvent: {}
+[4.213098] (-) TimerEvent: {}
+[4.313607] (-) TimerEvent: {}
+[4.414019] (-) TimerEvent: {}
+[4.514483] (-) TimerEvent: {}
+[4.614796] (-) TimerEvent: {}
+[4.715187] (-) TimerEvent: {}
+[4.815534] (-) TimerEvent: {}
+[4.915955] (-) TimerEvent: {}
+[5.016353] (-) TimerEvent: {}
+[5.116649] (-) TimerEvent: {}
+[5.217051] (-) TimerEvent: {}
+[5.317387] (-) TimerEvent: {}
+[5.417772] (-) TimerEvent: {}
+[5.518209] (-) TimerEvent: {}
+[5.618505] (-) TimerEvent: {}
+[5.718897] (-) TimerEvent: {}
+[5.819171] (-) TimerEvent: {}
+[5.919462] (-) TimerEvent: {}
+[6.019793] (-) TimerEvent: {}
+[6.120197] (-) TimerEvent: {}
+[6.220517] (-) TimerEvent: {}
+[6.320967] (-) TimerEvent: {}
+[6.421431] (-) TimerEvent: {}
+[6.521903] (-) TimerEvent: {}
+[6.622258] (-) TimerEvent: {}
+[6.722577] (-) TimerEvent: {}
+[6.822886] (-) TimerEvent: {}
+[6.923184] (-) TimerEvent: {}
+[7.023532] (-) TimerEvent: {}
+[7.123898] (-) TimerEvent: {}
+[7.224331] (-) TimerEvent: {}
+[7.324788] (-) TimerEvent: {}
+[7.425253] (-) TimerEvent: {}
+[7.525652] (-) TimerEvent: {}
+[7.626046] (-) TimerEvent: {}
+[7.726439] (-) TimerEvent: {}
+[7.826818] (-) TimerEvent: {}
+[7.927230] (-) TimerEvent: {}
+[8.027518] (-) TimerEvent: {}
+[8.127911] (-) TimerEvent: {}
+[8.228367] (-) TimerEvent: {}
+[8.328744] (-) TimerEvent: {}
+[8.429238] (-) TimerEvent: {}
+[8.529625] (-) TimerEvent: {}
+[8.630017] (-) TimerEvent: {}
+[8.730334] (-) TimerEvent: {}
+[8.830647] (-) TimerEvent: {}
+[8.931033] (-) TimerEvent: {}
+[9.031522] (-) TimerEvent: {}
+[9.131941] (-) TimerEvent: {}
+[9.232336] (-) TimerEvent: {}
+[9.332611] (-) TimerEvent: {}
+[9.433015] (-) TimerEvent: {}
+[9.533445] (-) TimerEvent: {}
+[9.633760] (-) TimerEvent: {}
+[9.734186] (-) TimerEvent: {}
+[9.834569] (-) TimerEvent: {}
+[9.935019] (-) TimerEvent: {}
+[10.035403] (-) TimerEvent: {}
+[10.135827] (-) TimerEvent: {}
+[10.236221] (-) TimerEvent: {}
+[10.336609] (-) TimerEvent: {}
+[10.437017] (-) TimerEvent: {}
+[10.537317] (-) TimerEvent: {}
+[10.637780] (-) TimerEvent: {}
+[10.736281] (ros2_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[10.737873] (-) TimerEvent: {}
+[10.838323] (-) TimerEvent: {}
+[10.938801] (-) TimerEvent: {}
+[11.039239] (-) TimerEvent: {}
+[11.117468] (ros2_subscriber) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[11.135294] (ros2_subscriber) CommandEnded: {'returncode': 0}
+[11.136169] (ros2_subscriber) JobProgress: {'identifier': 'ros2_subscriber', 'progress': 'install'}
+[11.139365] (-) TimerEvent: {}
+[11.150922] (ros2_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber'], 'cwd': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'harish-k', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/harish-k', 'OLDPWD': '/home/harish-k', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1511', 'SYSTEMD_EXEC_PID': '1887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4426', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'harish-k', 'JOURNAL_STREAM': '9:21897', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harish-k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harish-k-Nitro-ANV15-52:@/tmp/.ICE-unix/1679,unix/harish-k-Nitro-ANV15-52:/tmp/.ICE-unix/1679', 'INVOCATION_ID': 'ad6bd1ad2c8047938fbf306f58907ee4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3V5EK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f9ddc6fb-1519-49c1-80d8-528026e58044', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harish-k/ROS2 Assignment/Assgnment 2/build/ros2_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.162677] (ros2_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.163302] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/lib/ros2_subscriber/subscriber_node\n'}
+[11.167190] (ros2_subscriber) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/lib/ros2_subscriber/subscriber_node" to ""\n'}
+[11.167434] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ament_index/resource_index/package_run_dependencies/ros2_subscriber\n'}
+[11.167566] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ament_index/resource_index/parent_prefix_path/ros2_subscriber\n'}
+[11.167712] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/environment/ament_prefix_path.sh\n'}
+[11.167809] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/environment/ament_prefix_path.dsv\n'}
+[11.167931] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/environment/path.sh\n'}
+[11.168054] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/environment/path.dsv\n'}
+[11.168141] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/local_setup.bash\n'}
+[11.168265] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/local_setup.sh\n'}
+[11.168356] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/local_setup.zsh\n'}
+[11.168475] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/local_setup.dsv\n'}
+[11.168596] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/package.dsv\n'}
+[11.168680] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ament_index/resource_index/packages/ros2_subscriber\n'}
+[11.168804] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/cmake/ros2_subscriberConfig.cmake\n'}
+[11.168894] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/cmake/ros2_subscriberConfig-version.cmake\n'}
+[11.169011] (ros2_subscriber) StdoutLine: {'line': b'-- Installing: /home/harish-k/ROS2 Assignment/Assgnment 2/install/ros2_subscriber/share/ros2_subscriber/package.xml\n'}
+[11.171200] (ros2_subscriber) CommandEnded: {'returncode': 0}
+[11.201724] (ros2_subscriber) JobEnded: {'identifier': 'ros2_subscriber', 'rc': 0}
+[11.202636] (-) EventReactorShutdown: {}

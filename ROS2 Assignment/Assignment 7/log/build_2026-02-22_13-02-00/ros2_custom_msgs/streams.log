@@ -1,0 +1,250 @@
+[0.015s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 7/ros2-custom-messages-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs
+[0.127s] -- The C compiler identification is GNU 13.3.0
+[0.236s] -- The CXX compiler identification is GNU 13.3.0
+[0.267s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.418s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.577s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.590s] -- Detecting CXX compile features
+[0.591s] -- Detecting CXX compile features - done
+[0.607s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.022s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.136s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.164s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.369s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.375s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.559s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.593s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.735s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.763s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.566s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.009s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.200s] -- Found PythonExtra: /usr/bin/python3  
+[4.857s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.909s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.983s] -- Configured cppcheck include dirs: 
+[4.983s] -- Configured cppcheck exclude dirs and/or files: 
+[4.987s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.987s] -- Configured cpplint exclude dirs and/or files: 
+[4.990s] -- Added test 'lint_cmake' to check CMake code style
+[4.995s] -- Added test 'uncrustify' to check C / C++ code style
+[4.995s] -- Configured uncrustify additional arguments: 
+[4.997s] -- Added test 'xmllint' to check XML markup files
+[5.002s] -- Configuring done (5.0s)
+[5.043s] -- Generating done (0.0s)
+[5.057s] -- Build files have been written to: /home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs
+[5.069s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 7/ros2-custom-messages-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs
+[5.071s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs -- -j12 -l12
+[5.150s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.162s] [  2%] Built target ament_cmake_python_copy_ros2_custom_msgs
+[5.414s] [  2%] Built target ros2_custom_msgs__rosidl_generator_type_description
+[5.419s] running egg_info
+[5.421s] creating ros2_custom_msgs.egg-info
+[5.427s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.440s] writing ros2_custom_msgs.egg-info/PKG-INFO
+[5.440s] writing dependency_links to ros2_custom_msgs.egg-info/dependency_links.txt
+[5.440s] writing top-level names to ros2_custom_msgs.egg-info/top_level.txt
+[5.440s] writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'
+[5.441s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.495s] reading manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'
+[5.496s] writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'
+[5.533s] [  8%] Built target ament_cmake_python_build_ros2_custom_msgs_egg
+[5.728s] [  8%] Built target ros2_custom_msgs__cpp
+[5.740s] [ 11%] [32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__description.c.o[0m
+[5.741s] [ 13%] [32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__functions.c.o[0m
+[5.741s] [ 16%] [32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o[0m
+[5.821s] [ 19%] [32m[1mLinking C shared library libros2_custom_msgs__rosidl_generator_c.so[0m
+[5.880s] [ 19%] Built target ros2_custom_msgs__rosidl_generator_c
+[5.895s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.895s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.896s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.898s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.899s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.900s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.231s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_custom_msgs/msg/robot_status__type_support.cpp.o[0m
+[6.236s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp.o[0m
+[6.275s] [ 47%] [32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_custom_msgs/msg/detail/robot_status__type_support_c.cpp.o[0m
+[6.275s] [ 47%] [32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_custom_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[6.289s] [ 50%] [32m[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_c.so[0m
+[6.292s] [ 52%] [32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_custom_msgs/msg/robot_status__type_support.cpp.o[0m
+[6.337s] [ 52%] Built target ros2_custom_msgs__rosidl_typesupport_c
+[6.434s] [ 55%] [32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o[0m
+[6.506s] [ 58%] [32m[1mLinking C shared library libros2_custom_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.567s] [ 58%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_c
+[6.609s] [ 61%] [32m[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.621s] [ 63%] [32m[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_cpp.so[0m
+[6.681s] [ 63%] Built target ros2_custom_msgs__rosidl_typesupport_cpp
+[6.690s] [ 63%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_cpp
+[6.713s] [ 66%] [32mBuilding CXX object CMakeFiles/status_publisher.dir/src/status_publisher.cpp.o[0m
+[6.800s] [ 69%] [32m[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.813s] [ 72%] [32m[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.900s] [ 72%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp
+[6.913s] [ 72%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_c
+[6.948s] [ 72%] Built target ros2_custom_msgs
+[6.983s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.340s] [ 75%] Built target ros2_custom_msgs__py
+[7.369s] [ 77%] [32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_custom_msgs/msg/_robot_status_s.c.o[0m
+[7.505s] [ 80%] [32m[1mLinking C shared library libros2_custom_msgs__rosidl_generator_py.so[0m
+[7.560s] [ 80%] Built target ros2_custom_msgs__rosidl_generator_py
+[7.586s] [ 86%] [32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.586s] [ 86%] [32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.592s] [ 88%] [32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.697s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so[0m
+[7.708s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.711s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[7.740s] [ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_c
+[7.747s] [ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c
+[7.756s] [ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_introspection_c
+[11.731s] [100%] [32m[1mLinking CXX executable status_publisher[0m
+[11.994s] [100%] Built target status_publisher
+[12.013s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs -- -j12 -l12
+[12.026s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs
+[12.038s] -- Install configuration: ""
+[12.038s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_custom_msgs
+[12.038s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.json
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.h
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.h
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.h
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__description.c
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c
+[12.039s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.h
+[12.040s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.c
+[12.040s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.sh
+[12.040s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.dsv
+[12.040s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so
+[12.040s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so" to ""
+[12.040s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.040s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.040s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.040s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so
+[12.041s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.041s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.041s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.hpp
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.041s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__builder.hpp
+[12.041s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.hpp
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.hpp
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__traits.hpp
+[12.042s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.042s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.042s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/dds_fastrtps
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.042s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.042s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.043s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.043s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.043s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.043s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c
+[12.043s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[12.043s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.043s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so
+[12.043s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.043s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so
+[12.043s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so" to ""
+[12.044s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs
+[12.044s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg
+[12.044s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so
+[12.044s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so
+[12.044s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so" to ""
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.sh
+[12.044s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.dsv
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so
+[12.045s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status_s.c
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py
+[12.046s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so
+[12.098s] Listing '/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs'...
+[12.098s] Compiling '/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py'...
+[12.099s] Listing '/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg'...
+[12.099s] Compiling '/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py'...
+[12.099s] Compiling '/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py'...
+[12.105s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so
+[12.105s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.105s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so
+[12.106s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[12.106s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so
+[12.106s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so" to ""
+[12.106s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so
+[12.106s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so" to ""
+[12.106s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.idl
+[12.106s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.msg
+[12.107s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher
+[12.107s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher" to ""
+[12.107s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_custom_msgs
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_custom_msgs
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.sh
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.dsv
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.sh
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.dsv
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.bash
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.sh
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.zsh
+[12.108s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.dsv
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/package.dsv
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ament_index/resource_index/packages/ros2_custom_msgs
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cppExport.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.109s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.110s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig-version.cmake
+[12.111s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 7/install/ros2_custom_msgs/share/ros2_custom_msgs/package.xml
+[12.114s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs

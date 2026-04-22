@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_custom_msgs__py",
+		"source" : "/home/harish-k/ROS2 Assignment/Assignment 7/build/ros2_custom_msgs/ros2_custom_msgs__py"
+	}
+}

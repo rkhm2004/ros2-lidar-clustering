@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2 -- -j12 -l12
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o[0m
+[2.850s] [100%] [32m[1mLinking CXX executable tf_broadcaster[0m
+[3.002s] [100%] Built target tf_broadcaster
+[3.020s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2 -- -j12 -l12
+[3.035s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2
+[3.047s] -- Install configuration: ""
+[3.047s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/lib/ros2_tf2/tf_broadcaster
+[3.048s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/lib/ros2_tf2/tf_broadcaster" to ""
+[3.048s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ament_index/resource_index/package_run_dependencies/ros2_tf2
+[3.048s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ament_index/resource_index/parent_prefix_path/ros2_tf2
+[3.048s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/environment/ament_prefix_path.sh
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/environment/ament_prefix_path.dsv
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/environment/path.sh
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/environment/path.dsv
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/local_setup.bash
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/local_setup.sh
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/local_setup.zsh
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/local_setup.dsv
+[3.049s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/package.dsv
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ament_index/resource_index/packages/ros2_tf2
+[3.049s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/cmake/ros2_tf2Config.cmake
+[3.050s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/cmake/ros2_tf2Config-version.cmake
+[3.050s] -- Up-to-date: /home/harish-k/ROS2 Assignment/Assignment 10/install/ros2_tf2/share/ros2_tf2/package.xml
+[3.051s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 10/build/ros2_tf2

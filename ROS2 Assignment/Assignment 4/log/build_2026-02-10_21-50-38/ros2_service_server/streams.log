@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 4/assignment-ros2-c-service-server-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.241s] -- The CXX compiler identification is GNU 13.3.0
+[0.264s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.788s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.834s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.846s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.881s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.956s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.069s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.101s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.126s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.194s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.244s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.338s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.340s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.340s] -- Configured cppcheck include dirs: 
+[1.340s] -- Configured cppcheck exclude dirs and/or files: 
+[1.342s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.342s] -- Configured cpplint exclude dirs and/or files: 
+[1.343s] -- Added test 'lint_cmake' to check CMake code style
+[1.345s] -- Added test 'uncrustify' to check C / C++ code style
+[1.345s] -- Configured uncrustify additional arguments: 
+[1.346s] -- Added test 'xmllint' to check XML markup files
+[1.347s] -- Configuring done (1.3s)
+[1.354s] -- Generating done (0.0s)
+[1.356s] -- Build files have been written to: /home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server
+[1.364s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/harish-k/ROS2 Assignment/Assignment 4/assignment-ros2-c-service-server-rkhm2004 -DCMAKE_INSTALL_PREFIX=/home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server
+[1.365s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server -- -j12 -l12
+[1.423s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[3.888s] [100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.051s] [100%] Built target add_two_ints_server
+[4.066s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server -- -j12 -l12
+[4.079s] Invoking command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server
+[4.088s] -- Install configuration: ""
+[4.088s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server
+[4.088s] -- Set non-toolchain portion of runtime path of "/home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/lib/ros2_service_server/add_two_ints_server" to ""
+[4.088s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ament_index/resource_index/package_run_dependencies/ros2_service_server
+[4.088s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ament_index/resource_index/parent_prefix_path/ros2_service_server
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.sh
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/environment/ament_prefix_path.dsv
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/environment/path.sh
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/environment/path.dsv
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/local_setup.bash
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/local_setup.sh
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/local_setup.zsh
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/local_setup.dsv
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/package.dsv
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ament_index/resource_index/packages/ros2_service_server
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig.cmake
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/cmake/ros2_service_serverConfig-version.cmake
+[4.089s] -- Installing: /home/harish-k/ROS2 Assignment/Assignment 4/install/ros2_service_server/share/ros2_service_server/package.xml
+[4.090s] Invoked command in '/home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harish-k/ROS2 Assignment/Assignment 4/build/ros2_service_server
